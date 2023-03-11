@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="chart.js"></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+      <div class="top_block">
+        <div class="my_balance_block">
+          <p class="my_balance_title">My balance</p>
+          <h1 class="my_balance">$921.48</h1>
+        </div>
+        <img src="./images/logo.svg" alt="my spendings">  
+      </div>
+      <div class="content_block">
+        <div class="chart_block">
+          <h2 class="chart_title">Spending - Last 7 days</h2>
+          <div class="chart">
+            <div class="bar1">
+              <div class="bar" style="height: 98px"></div>
+              <div class="label">Mon</div>
+            </div>
+            <div class="bar1">
+              <div class="bar" style="height: 98px"></div>
+              <div class="label">Mon</div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="bottom_block">
+          <div class="month_result">
+            <p class="bottom_title">Total this month</p>
+            <p class="bottom_total">$478.33</p>
+          </div>
+          <div class="month_deviation">
+            <p class="last_month">+2.4%</p>
+            <p class="last_month_title">from last month</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
